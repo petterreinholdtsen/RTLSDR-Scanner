@@ -405,7 +405,7 @@ def save_plot(filename, scanInfo, spectrum, location):
                           'Location': location}]
 
     handle = open(os.path.join(filename), 'wb')
-    handle.write(json.dumps(data, indent=4))
+    handle.write(json.dumps(data, indent=4).encode('UTF-8'))
     handle.close()
 
 
