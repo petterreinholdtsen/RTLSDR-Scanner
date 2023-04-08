@@ -4,3 +4,4 @@ Name = RTLSDR Scanner
 Comment = A cross platform Python frequency scanning GUI for the OsmoSDR rtl-sdr library
 Exec = python -m rtlsdr_scanner
 Categories = HamRadio;
+MimeType=application/vnd.rtlsdr-scanner+json;
